@@ -1,0 +1,21 @@
+:root {
+  --bg-canvas: #F4F2ED;
+  --bg-mat: #E6E3DC;
+  --bg-surface: #FAF9F6;
+  --border-hairline: #DCD8D0;
+  --text-primary: #181715;
+  --text-muted: #635F59;
+  --accent-signal: #D9381E;
+  --accent-signal-hover: #B82B14;
+}
+
+.dark {
+  --bg-canvas: #141312;
+  --bg-mat: #0D0C0B;
+  --bg-surface: #1E1D1B;
+  --border-hairline: #2E2C29;
+  --text-primary: #EDEAE4;
+  --text-muted: #969188;
+  --accent-signal: #F05D43;
+  --accent-signal-hover: #FF7259;
+}

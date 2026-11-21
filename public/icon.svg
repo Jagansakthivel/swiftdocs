@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100%" height="100%">
+  <!-- Sharp Vermilion Icon Canvas -->
+  <rect width="150" height="150" rx="20" fill="#D9381E"/>
+  
+  <!-- Unbleached Cotton Sheet Geometry -->
+  <path d="M 45 33 H 85 V 53 H 105 V 116 A 5 5 0 0 1 100 121 H 45 A 5 5 0 0 1 40 116 V 38 A 5 5 0 0 1 45 33 Z" fill="#FAF9F6"/>
+  
+  <!-- Folded Corner Geometry -->
+  <polygon points="89,35 89,49 103,49" fill="#FAF9F6"/>
+  
+  <!-- Vermilion Accent & Charcoal Ink Rule Lines -->
+  <rect x="52" y="68" width="46" height="6" rx="2" fill="#D9381E"/>
+  <rect x="52" y="82" width="34" height="6" rx="2" fill="#181715"/>
+  <rect x="52" y="95" width="40" height="6" rx="2" fill="#181715"/>
+</svg>

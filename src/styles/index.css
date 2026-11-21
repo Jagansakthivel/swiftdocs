@@ -1,0 +1,122 @@
+@import "./tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Ubuntu", system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+  }
+}
+
+@layer utilities {
+  .bg-canvas {
+    background-color: var(--bg-canvas);
+  }
+  .bg-mat {
+    background-color: var(--bg-mat);
+  }
+  .bg-surface {
+    background-color: var(--bg-surface);
+  }
+  .border-hairline {
+    border-color: var(--border-hairline);
+  }
+  .border-paper-border {
+    border-color: var(--border-hairline);
+  }
+  .bg-paper-canvas {
+    background-color: var(--bg-canvas);
+  }
+  .bg-paper-mat {
+    background-color: var(--bg-mat);
+  }
+  .bg-paper-surface {
+    background-color: var(--bg-surface);
+  }
+  .bg-paper-border {
+    background-color: var(--border-hairline);
+  }
+  .text-paper-muted {
+    color: var(--text-muted);
+  }
+  .text-ink {
+    color: var(--text-primary);
+  }
+  .text-ink-muted {
+    color: var(--text-muted);
+  }
+  .bg-signal {
+    background-color: var(--accent-signal);
+  }
+  .text-signal {
+    color: var(--accent-signal);
+  }
+  .border-signal {
+    border-color: var(--accent-signal);
+  }
+  .rounded-sharp {
+    border-radius: 4px;
+  }
+}
+
+/* Hide native scrollbar on horizontal tab strips while preserving touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Clean formatting for DOCX to PDF preview & export */
+.docx-preview h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+.docx-preview h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.docx-preview h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+.docx-preview p {
+  margin-bottom: 0.75rem;
+}
+.docx-preview ul,
+.docx-preview ol {
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.docx-preview ul {
+  list-style-type: disc;
+}
+.docx-preview ol {
+  list-style-type: decimal;
+}
+.docx-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.docx-preview th,
+.docx-preview td {
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+.docx-preview th {
+  background-color: #f1f5f9;
+  font-weight: 700;
+}
