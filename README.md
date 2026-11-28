@@ -1,19 +1,25 @@
 # SwiftDocs
 
-> **100% Browser-Local PDF & Document Utilities · Zero Server Uploads**
+**PDF and document tools that never leave your device.**
 
-SwiftDocs is a privacy-first, local-first web application for viewing, converting, editing, compressing, and protecting PDFs and documents. Every byte processed stays strictly in browser memory.
+[Open SwiftDocs](https://swiftdocs-theta.vercel.app/) · [Portfolio](https://jagansakthivel.github.io/#work)
 
----
+<a href="https://swiftdocs-theta.vercel.app/"><img src="https://raw.githubusercontent.com/Jagansakthivel/jagansakthivel.github.io/main/public/projects/swiftdocs-tools.png" alt="SwiftDocs tool directory" width="760"></a>
 
-## Features
+I built SwiftDocs around a simple constraint: a routine document operation should not require uploading a private file. The app brings 15 utilities into a single browser-local workspace.
 
-- **100% Client-Side Privacy**: All operations execute entirely on your machine via Web APIs and WebAssembly. No files or metadata are ever uploaded to any server.
-- **Offline Capable & Installable PWA**: Packaged with a Service Worker and Web App Manifest for instant offline use and standalone installation across desktop and mobile.
-- **Swiss Print-Shop Design**: Built with an archival paper palette (`#F4F2ED` canvas, `#FAF9F6` cotton surface, `#D9381E` International Vermilion accents) and tactile feedback.
-- **Quick-Drop Routing**: Drop any file onto the hero area to auto-detect file types and stage files directly into the target tool workspace.
+| What matters | Implementation |
+| --- | --- |
+| Privacy | Local file processing; no document upload backend |
+| Availability | Installable PWA and service-worker caching |
+| Workflow | File-type detection and drag-and-drop routing |
+| Document control | Compression, signing, AES protection and metadata scrubbing |
 
----
+## A closer look
+
+<img src="https://raw.githubusercontent.com/Jagansakthivel/jagansakthivel.github.io/main/public/projects/swiftdocs-compressor.png" alt="PDF compressor workspace with preset controls" width="760">
+
+**Try it:** open the live app, select Compress PDF, choose a non-sensitive sample file and compare the output sizes. The screenshots above are actual interface captures, not a simulated recording.
 
 ## 15 Local-First Tools
 
